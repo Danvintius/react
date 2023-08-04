@@ -1,4 +1,4 @@
-import './App.css';
+import './ShopItemFunc.css';
 
 const item = {
     brand: 'Tiger of Sweden',
