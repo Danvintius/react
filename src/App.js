@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { ShopItemFunc } from './components/ShopItemFunc';
 
 const item = {
   brand: 'Tiger of Sweden',
@@ -10,7 +11,7 @@ const item = {
   currency: '£'
 }
 
-function App() {
+export function App() {
   return (
     <div className="container">
     <div className="background-element">
@@ -19,7 +20,7 @@ function App() {
       <div className='highlight-overlay'></div>
     </div>
     <div className="window">
-      <ShopItemClass item={item} />
+      <ShopItemFunc item={item} />
     </div>
   </div>
   );

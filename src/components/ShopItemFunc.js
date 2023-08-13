@@ -1,7 +1,7 @@
 import './ShopItemFunc.css';
-import {item} from App.js;
+//import {item} from App.js;
   
-function ShopItemFunc(props) {
+export function ShopItemFunc(props) {
     const {item} = props;
     return (
       <div class="main-content">
